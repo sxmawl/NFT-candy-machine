@@ -1,0 +1,57 @@
+{
+    "name": "Nocturnals eye",
+    "description":"Why do we not sleep?",
+    "image":"image.png",
+    "date": 1641875139514,
+    "symbol": "NTRL",
+    "seller_fee_basis_points": 0,
+    "collection": {
+        "name": "BITS mafia",
+        "family": "Secret to greatness"
+      },
+     "properties": {
+        "files": [
+          {
+            "url": "image.png",
+            "type": "image/png"
+          }
+        ],
+        "category": "image",
+        "creators": [
+          {
+            "address": "BeETQh3KzWGtwQPTFQ7BVpYGt9N2BhV94tyE8B3CwVcx",
+            "share": 100
+          }
+        ]
+      },
+     "attributes": [
+        {
+          "trait_type": "Background",
+          "value": "Black"
+        },
+        {
+          "trait_type": "Eyeball",
+          "value": "Red"
+        },
+        {
+          "trait_type": "Eye color",
+          "value": "Pink"
+        },
+        {
+          "trait_type": "Iris",
+          "value": "Small"
+        },
+        {
+          "trait_type": "Shine",
+          "value": "Shapes"
+        },
+        {
+          "trait_type": "Bottom lid",
+          "value": "Low"
+        },
+        {
+          "trait_type": "Top lid",
+          "value": "Middle"
+        }
+      ]
+}

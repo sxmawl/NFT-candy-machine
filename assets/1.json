@@ -1,0 +1,57 @@
+{
+    "name": "Nocturnals fly",
+    "description":"Why do we not sleep?",
+    "image":"image.png",
+    "date": 1641875139515,
+    "symbol": "NTRL",
+    "seller_fee_basis_points": 0,
+    "collection": {
+        "name": "BITS mafia",
+        "family": "Secret to greatness"
+      },
+     "properties": {
+        "files": [
+          {
+            "url": "image.png",
+            "type": "image/png"
+          }
+        ],
+        "category": "image",
+        "creators": [
+          {
+            "address": "BeETQh3KzWGtwQPTFQ7BVpYGt9N2BhV94tyE8B3CwVcx",
+            "share": 100
+          }
+        ]
+      },
+     "attributes": [
+        {
+          "trait_type": "Background",
+          "value": "Pink"
+        },
+        {
+          "trait_type": "Eyeball",
+          "value": "Transparent"
+        },
+        {
+          "trait_type": "Position",
+          "value": "Fly"
+        },
+        {
+          "trait_type": "Time",
+          "value": "Evening"
+        },
+        {
+          "trait_type": "Shine",
+          "value": "Yellow"
+        },
+        {
+          "trait_type": "Bottom",
+          "value": "Hills"
+        },
+        {
+          "trait_type": "Top",
+          "value": "Sky"
+        }
+      ]
+}

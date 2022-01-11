@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import { MintCountdown } from './MintCountdown';
 import { toDate, formatNumber } from './utils';
 import { CandyMachineAccount } from './candy-machine';
+import previewNFT from './0.png'
 
 type HeaderProps = {
   candyMachine?: CandyMachineAccount;
@@ -12,11 +13,26 @@ type HeaderProps = {
 
 export const Header = ({ candyMachine }: HeaderProps) => {
   return (
+    <div>
+       <Grid xs={12} justifyContent="center" direction="column">
+        <Typography
+          color="textSecondary"
+          style={{ padding: '1rem 0', fontSize: '20px' }}
+        >
+          This is a collection of 2 NFTs. 1 I've minted. And there's 1 remaining, So if you get it, you're lucky otherwise better luck next time.
+        </Typography>
+
+        <img src={previewNFT} style={{ width: '100%' }} alt="hmm"/>
+      </Grid>
     <Grid container direction="row" justifyContent="center" wrap="nowrap">
+      
       <Grid container direction="row" wrap="nowrap">
+        
         {candyMachine && (
           <Grid container direction="row" wrap="nowrap">
+            
             <Grid container direction="column">
+            
               <Typography variant="body2" color="textSecondary">
                 Remaining
               </Typography>
@@ -63,6 +79,7 @@ export const Header = ({ candyMachine }: HeaderProps) => {
         />
       </Grid>
     </Grid>
+    </div>
   );
 };
 
